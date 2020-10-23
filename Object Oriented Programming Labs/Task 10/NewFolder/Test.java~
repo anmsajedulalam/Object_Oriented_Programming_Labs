@@ -1,0 +1,32 @@
+import java.util.*;
+public class Test
+{
+  public static void main(String[]args)
+  {
+    Scanner k=new Scanner(System.in);
+    int d=k.nextInt();
+    int e=k.nextInt();
+    season(x,y);
+  }
+  public season(int m, int d)
+  {
+    if(m>=9&&m<=12)
+    {
+     else if (m>=6&&m<=9)
+     {
+     }
+     else if (m>=3&&m<=6)
+     {
+       if(m==3&&d<=16)
+       {
+         System.
+       }
+       else
+       {
+       }
+     }
+     else if(m==12&&m<=3)
+     {
+     }
+    }
+  

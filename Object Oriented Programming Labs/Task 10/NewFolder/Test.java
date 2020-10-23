@@ -1,0 +1,54 @@
+public class Test
+{
+  public String season(int m, int d)
+  {
+    if(m>=9&&m<=12)
+    {
+      if(m==9&&d>=16||m==12&&d<=15)
+      {
+        return "Fall";
+      }
+      else if(m>9&&m<12)
+      {
+        return "Fall";
+      }
+    }
+    if (m>=6&&m<=9)
+    {
+      if(m==6&&d<=16||m==9&&d>=15)
+      {
+        return "Summer";
+      }
+      else if(m>6&&m<9)
+      {
+        return "Summer";
+      }
+    }
+    if (m>=3&&m<=6)
+    {
+     if(m==3&&d>=16||m==6&&d<=15)
+     {
+        return "Spring";
+     }
+     else if(m>3&&m<6)
+     {
+       return "Spring";
+     }
+    }
+    if(m==12&&m<=3)
+    {
+      if(m==3&&d<=15||m==12&&d>=16)
+      {
+        return "Winter";
+      }
+      else if(m<3)
+      {
+        return "Winter";
+      }
+    }
+    return null; 
+  }
+}
+
+    
+  

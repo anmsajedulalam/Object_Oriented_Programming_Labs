@@ -1,0 +1,31 @@
+import java.util.*;
+public class Test
+{
+  public static void main(String[]args)
+  {
+    Scanner k=new Scanner(System.in);
+    int [] a=new int[10];
+    for(int c=0;c<a.length; )
+    {
+      System.out.println("Enter a unique number");
+      int x=k.nextInt();
+      for(int d=0;d<c;d++)
+      {
+        if(a[d]==x)
+        {
+          System.out.println(x+" is already in among the entered numbers, enter a new unique number");
+        }
+        else
+        {
+          a[c]=x;
+          c++;
+        }
+      }
+    }
+    for(int e=0;e<a.length;e++)
+    {
+      System.out.print(e+" ");
+    }
+    System.out.println();
+  }
+}

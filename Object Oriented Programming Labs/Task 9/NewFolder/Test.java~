@@ -1,0 +1,18 @@
+import java.util.*;
+public class Test
+{
+  int a[]=new int[10];
+  public static void main(String[]args)
+  {
+    Scanner k=new Scanner(System.in);
+    for(int c=0;c<10;c++)
+    {
+      a[c]=k.nextInt();
+    }
+    display(a,10);
+  }
+  public static int [], int display(int x[], int y)
+  {
+    
+      
+  
